@@ -9,5 +9,5 @@ import java.util.List;
 
 @Repository
 public interface SpentRepository extends JpaRepository<Spent, Long> {
-    List<Spent> findByDate(LocalDate fecha);
+    List<Spent> findByDate(LocalDate date);
 }
