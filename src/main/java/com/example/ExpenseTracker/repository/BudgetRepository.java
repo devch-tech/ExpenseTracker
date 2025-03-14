@@ -9,5 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface BudgetRepository extends JpaRepository<Budget, Long> {
-    Optional<Budget> findByMes(LocalDate fecha);
+    Optional<Budget> findByMes(String fecha);
 }
