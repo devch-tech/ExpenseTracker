@@ -12,9 +12,8 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SpentDTO {
-    private long id;
     private String description;
-    private double mount;
+    private double amount;
     private LocalDate date;
     private String category;
 }

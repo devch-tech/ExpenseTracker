@@ -18,5 +18,5 @@ public class Budget {
     private String month;
 
     @Column
-    private double maxMount;
+    private double maxAmount;
 }

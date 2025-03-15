@@ -21,7 +21,7 @@ public class Spent {
     private String description;
 
     @Column
-    private double mount;
+    private double amount;
 
     @Column(name="date_of_spent")
     private LocalDate date;

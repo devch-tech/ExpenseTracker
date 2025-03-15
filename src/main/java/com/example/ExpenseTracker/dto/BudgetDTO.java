@@ -10,7 +10,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BudgetDTO {
-    private long id;
     private String month;
-    private double maxMount;
+    private double maxAmount;
 }
