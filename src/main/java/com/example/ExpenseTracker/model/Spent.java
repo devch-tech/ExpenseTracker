@@ -15,13 +15,13 @@ public class Spent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private long id;
 
     @Column
     private String description;
 
     @Column
-    private double mount;
+    private double amount;
 
     @Column(name="date_of_spent")
     private LocalDate date;
