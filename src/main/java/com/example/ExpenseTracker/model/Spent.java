@@ -15,7 +15,7 @@ public class Spent {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private long id;
 
     @Column
     private String description;
